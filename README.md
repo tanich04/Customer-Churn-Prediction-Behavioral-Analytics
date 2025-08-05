@@ -34,10 +34,3 @@ Then, run the main scripts from the project's root directory:
 ## python src/explain_model.py
 
 The generated visualizations will be saved to the images/ folder.
-
-|   |-- shap_waterfall_plot.png
-|   |-- shap_force_plot.png
-|
-|-- .gitignore
-|-- README.md
-|-- requirements.txt
