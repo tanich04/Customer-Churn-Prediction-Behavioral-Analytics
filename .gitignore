@@ -16,6 +16,3 @@ data/final_churn_data.csv
 
 # Model files
 models/*.joblib
-
-# Image files
-images/*.png
