@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+venv/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# Data files (often too large)
+data/final_churn_data.csv
+*.csv
+
+# Model files
+models/*.joblib
+
+# Image files
+images/*.png
