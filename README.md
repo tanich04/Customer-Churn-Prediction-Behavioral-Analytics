@@ -34,3 +34,24 @@ Then, run the main scripts from the project's root directory:
 ## python src/explain_model.py
 
 The generated visualizations will be saved to the images/ folder.
+## Key Findings
+
+The analysis revealed several critical factors influencing customer churn. The following visualizations, generated from the trained model, summarize these findings:
+
+### 1. Feature Importance
+
+This plot identifies the top features driving churn predictions. It shows that transactional behavior and credit utilization are the most influential factors.
+![Feature Importance Plot](shap_feature_importance.png)
+
+### 2. Prediction Summary
+
+This summary plot provides a detailed view of how each feature's values affect the churn probability, confirming the directional impact of each variable.
+![Prediction Summary Plot](shap_summary_plot.png)
+
+### 3. Individual Prediction Explainability
+
+These plots demonstrate how the model's prediction for a single customer is calculated, a key capability for business trust and decision-making.
+
+**Waterfall Plot:**
+![Waterfall Plot for a single prediction](shap_waterfall_plot.png)
+
